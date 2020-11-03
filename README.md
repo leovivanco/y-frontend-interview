@@ -1,70 +1,42 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# YGROUP - Interview Project
 
-## Available Scripts
+### Project - Random Facts Timeline
 
-In the project directory, you can run:
+Build a SPA that follows these requirements: 
+ * Place to generate a random year fact. You can use this endpoint from NumbersAPI: http://numbersapi.com/random/year?json
+ * Parse the information needed from each fact
+ * List the years in a timeline
+ * Clicking in each year should show more info with that year's fact information.
+ * Ability to remove uninteresting facts.
+ 
+### How is this project organized?
+This project uses Create-React-App in its initial state. If the interviewee pretends to start the project in another React environment other than CRA is free to do so.
 
-### `yarn start`
+### Main goals
+The main goal of this project is for us to assess your skills, your logic-thinking as well as your level of comfort with different web technologies. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can use any library available (i.e. state management libraries). Choice and usage of libraries will also weight in the evaluation.
+ 
+### Design Idea
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You can choose to implement the design given or change it to something more of your liking. Attention to detail and usability concerns is appreciated.
 
-### `yarn test`
+![picture](https://img.techpowerup.org/201103/macbook-pro-5.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![picture](https://img.techpowerup.org/201103/macbook-pro-2.png)
 
-### `yarn build`
+![picture](https://img.techpowerup.org/201103/macbook-pro-3.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![picture](https://img.techpowerup.org/201103/macbook-pro-8.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+All the resources needed for these design template are included in the assets folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Notes
 
-### `yarn eject`
+You should fork this repository and build your own application with it. If you prefer to do it in any other way, please give that indication before-hand.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+After finishing the project, please send us the link or invite us to the repository.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Most of all try to have fun, be creative and good luck! 😁 

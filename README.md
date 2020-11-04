@@ -4,10 +4,9 @@
 ### Project - Random Facts Timeline
 
 Build a SPA that follows these requirements: 
- * Place to generate a random year fact. You can use this endpoint from NumbersAPI: http://numbersapi.com/random/year?json
- * Parse the information needed from each fact
- * List the years in a timeline
- * Clicking in each year should show more info with that year's fact information.
+ * Ability to generate random facts. You can use this endpoint from NumbersAPI: http://numbersapi.com/random/year?json
+ * Display the facts in a timeline by year
+ * Show more info about a year’s fact by clicking on that year in the timeline.
  * Ability to remove uninteresting facts.
  
 ### How is this project organized?
@@ -16,19 +15,23 @@ This project uses Create-React-App in its initial state. If the interviewee pret
 ### Main goals
 The main goal of this project is for us to assess your skills, your logic-thinking as well as your level of comfort with different web technologies. 
 
-You can use any library available (i.e. state management libraries). Choice and usage of libraries will also weight in the evaluation.
+You can use any library available (i.e. state management libraries). Choice and usage of libraries will also weigh in the evaluation.
  
 ### Design Idea
 
-You can choose to implement the design given or change it to something more of your liking. Attention to detail and usability concerns is appreciated.
+You can choose to implement the design given or change it to something more of your liking. Attention to detail and usability concerns are appreciated.
 
-![picture](https://img.techpowerup.org/201103/macbook-pro-5.png)
+First Screen with no facts:
+<kbd><img src="https://img.techpowerup.org/201103/macbook-pro-5.png" /></kbd>
 
-![picture](https://img.techpowerup.org/201103/macbook-pro-2.png)
+Screen with 1 fact generated:
+<kbd><img src="https://img.techpowerup.org/201104/macbook-pro-2.png" /></kbd>
 
-![picture](https://img.techpowerup.org/201103/macbook-pro-3.png)
+Screen with 2 facts generated:
+<kbd><img src="https://img.techpowerup.org/201104/macbook-pro-3.png" /></kbd>
 
-![picture](https://img.techpowerup.org/201103/macbook-pro-8.png)
+Change between facts:
+<kbd><img src="https://img.techpowerup.org/201104/macbook-pro-9.png" /></kbd>
 
 All the resources needed for these design template are included in the assets folder.
 

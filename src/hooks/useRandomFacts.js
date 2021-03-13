@@ -15,11 +15,14 @@ const useRandomFacts = () => {
   const [error, setError] = useState(false)
 
   useEffect(() => {
-    fetch(setRandomFact, setError)
+    getNewFact(setRandomFact, setError)
   }, [])
+
+  const getNewFact = () => fetch(setRandomFact, setError)
 
   return {
     randomFact,
+    getNewFact,
     error
   }
 }

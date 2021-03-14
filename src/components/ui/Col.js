@@ -10,5 +10,11 @@ const Col = styled.div`
       background-size: cover;
       color: #fff
   `}
+
+  ${(props) =>
+    props.bgColor &&
+    `
+      background-color: ${props.bgColor};
+  `}
 `
 export default Col

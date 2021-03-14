@@ -1,8 +1,7 @@
 import React from 'react'
-import { Col } from '../components/ui'
 import imgHome from '../assets/images/background.png'
 import styled from 'styled-components'
-import { Button } from '../components/ui'
+import { Button, Col } from '../components/ui'
 import { Link } from 'react-router-dom'
 
 const HomeDetails = styled.div`

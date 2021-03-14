@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import { TimeLineContext } from '../contexts/TimeLineContext'
+import React from 'react'
+import { Button } from './ui'
 import styled from 'styled-components'
 
 const TimelineStyle = styled.div`
@@ -22,33 +22,27 @@ const TimelineStyle = styled.div`
       background-color: #f00;
     }
   }
-  .year {
-  }
 `
 
-const TimeLine = () => {
-  const { randomFacts, getNewFact, currentFact, setCurrentFact } = useContext(
-    TimeLineContext
-  )
-  const sortByYear = randomFacts.sort((a, b) => a.number - b.number)
-
+const TimeLine = ({ addFact, facts, currectFact, setCurrectFact }) => {
   return (
     <>
-      <button onClick={getNewFact}>Generate</button>
+      <Button onClick={addFact}>Generate Random Year Fact</Button>
       <TimelineStyle>
-        {sortByYear.map((fact) => (
-          <div
-            key={fact.number}
-            onClick={() => setCurrentFact(fact)}
-            className={`swiper-slide ${
-              fact.number === currentFact?.number ? 'active' : null
-            } `}
-          >
-            <div className="timestamp">
-              <span className="year">{fact?.number}</span>
+        {facts &&
+          facts.map((fact) => (
+            <div
+              key={fact.number}
+              onClick={() => setCurrectFact(fact)}
+              className={`swiper-slide ${
+                fact.number === currectFact?.number ? 'active' : null
+              } `}
+            >
+              <div className="timestamp">
+                <span className="year">{fact?.number}</span>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
       </TimelineStyle>
     </>
   )

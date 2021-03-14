@@ -4,22 +4,24 @@ import styled from 'styled-components'
 
 const TimelineStyle = styled.div`
   position: absolute;
-  width: 99%;
-  bottom: 10px;
+  width: 95%;
+  bottom: 25px;
   display: flex;
+  flex-flow: wrap;
   overflow: auto;
   .swiper-slide {
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0.4rem;
     background-color: #fff;
     font-size: 11px;
     padding: 0.5rem;
     font-weight: bold;
     cursor: pointer;
     &.active {
-      background-color: #f00;
+      background-color: #6d6161;
+      color: #fff;
     }
   }
 `

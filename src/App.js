@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import useRandomFacts from './hooks/useRandomFacts'
 import AppLayout from './components/ui/AppLayout'
 import { TimeLineContext } from './contexts/TimeLineContext'

@@ -38,6 +38,7 @@ const TimeLine = () => {
       <TimelineStyle>
         {sortByYear.map((fact) => (
           <div
+            key={fact.number}
             onClick={() => setCurrentFact(fact)}
             className={`swiper-slide ${
               fact.number === currentFact?.number ? 'active' : null

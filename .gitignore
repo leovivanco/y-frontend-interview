@@ -11,6 +11,9 @@
 # production
 /build
 
+#.vscde
+/.vscde
+
 # misc
 .DS_Store
 .env.local

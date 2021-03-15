@@ -1,8 +1,7 @@
 import React from 'react'
 import imgHome from '../assets/images/background.png'
 import styled from 'styled-components'
-import { Button, Col } from '../components/ui'
-import { Link } from 'react-router-dom'
+import { Col } from '../components/ui'
 
 const HomeDetails = styled.div`
   display: flex;
@@ -24,24 +23,15 @@ const HomeDetails = styled.div`
   }
 `
 
-const HomePage = () => {
+const Home = () => {
   return (
-    <>
-      <Col bg={imgHome}>
-        <HomeDetails>
-          <h1>Random Year Facts</h1>
-          <p>Generate random fact, from random years</p>
-        </HomeDetails>
-      </Col>
-      <Col>
-        <HomeDetails>
-          <Button as={Link} to="/timeline">
-            Generate Random Year Fact
-          </Button>
-        </HomeDetails>
-      </Col>
-    </>
+    <Col bg={imgHome}>
+      <HomeDetails>
+        <h1>Random Year Facts</h1>
+        <p>Generate random fact, from random years</p>
+      </HomeDetails>
+    </Col>
   )
 }
 
-export default HomePage
+export default Home
